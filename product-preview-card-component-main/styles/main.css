@@ -19,7 +19,7 @@ body {
 .inner {
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
+  width: 100vw;
   /* Whatever width you want */
 }
 
@@ -37,6 +37,13 @@ body {
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
+    width: 75vw;
+  }
+  .page-container > p {
+    line-height: 6vw;
+  }
+  .page-container > h1 {
+    font-size: 6vw;
   }
   .price-card {
     display: inline-flex;
@@ -48,10 +55,10 @@ body {
   }
   .img-container-mobile {
     overflow: hidden;
-    width: 100vw;
-    height: 75vw;
-    border-radius: 10px;
+    width: 96%;
+    height: 60vw;
     background-color: hsl(30, 38%, 92%);
+    border-radius: 10px 10px 0 0;
   }
   .img-product-mobile {
     width: 100%;
