@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Montserrat"; /*a name to be used later*/
+  src: url("https://fonts.google.com/specimen/Montserrat"); /*URL to font*/
+}
+@font-face {
+  font-family: "Fraunces"; /*a name to be used later*/
+  src: url("https://fonts.google.com/specimen/Fraunces"); /*URL to font*/
+}
+p, span {
+  font-family: Montserrat;
+}
+
+.price-card > p {
+  font-family: Fraunces;
+}
+
 body {
   background-color: hsl(30, 38%, 92%);
 }
@@ -117,28 +133,35 @@ body {
     display: flex;
     flex-direction: column;
     background-color: hsl(0, 0%, 100%);
-    width: 90vw;
-    margin: 0 auto;
+    width: 75vw;
+    margin: 0 auto 10vw auto;
     border-radius: 10px;
+    height: 135vw;
   }
-  .content-container > p, span {
+  .content-container > p {
     color: hsl(212, 21%, 14%);
-    font-size: 3.9vw;
+    font-size: 3vw;
     line-height: 5vw;
     margin: 0;
-    width: 71vw;
+    width: 62vw;
   }
   .content-container > span {
-    letter-spacing: 1.5vw;
+    letter-spacing: 0.6vw;
+    font-size: 3vw;
+    font-weight: 700;
+    text-transform: uppercase;
   }
   .content-container {
-    padding: 5vw 10vw 0 10vw;
+    padding: 4.2vw 6vw 0 6vw;
   }
   .content-container > h1 {
-    font-size: 8vw;
-    margin: 3vw 0 3vw 0;
+    font-size: 7.2vw;
+    letter-spacing: 0.25vw;
+    line-height: 7.5vw;
+    margin: 2.5vw 0 3vw 0;
   }
   .price-card {
+    margin: 2.5vw 0 0 0;
     font-size: 5.5vw;
     display: inline-flex;
     align-items: center;
@@ -146,6 +169,7 @@ body {
   }
   .price-card > h2 {
     margin: 0;
+    font-family: Fraunces;
   }
   .btn-container {
     margin: 0 auto;
@@ -157,9 +181,10 @@ body {
     text-decoration: line-through;
   }
   .img-container-mobile {
+    margin: 0 auto;
     overflow: hidden;
     width: 100%;
-    height: 60vw;
+    height: 39%;
     background-color: hsl(30, 38%, 92%);
     border-radius: 10px 10px 0 0;
   }
@@ -172,10 +197,10 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin: 4vw auto;
+    margin: 3.2vw auto;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
-    width: 70vw;
+    width: 65vw;
     height: 11vw;
     font-size: 3.5vw;
     border-radius: 10px;
@@ -258,7 +283,7 @@ body {
     margin: 4vw auto;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
-    width: 75vw;
+    width: 70vw;
     height: 10vw;
     font-size: 3vw;
     border-radius: 10px;
