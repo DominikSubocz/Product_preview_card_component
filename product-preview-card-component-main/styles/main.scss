@@ -53,324 +53,80 @@ body{
   }
 
   /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 375px) 
-{
 
-.outer {
-    display: table;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }    
-  
+@media only screen and (min-width: 375px) {
 
-.page-container{
+  .page-container{
     display: flex;
     flex-direction: column;
+    padding: 0 5vw 0 5vw;
     background-color: $neutral-color-three;
-    width: 90vw;
+    width: 74vw;
     margin:0 auto;
-    border-radius: 10px;
-}
-.content-container > p,span{
-  color: $neutral-color-one;
-  font-size: 4.5vw;
-  line-height: 6vw;
-  margin:0;
-}
+  }
 
-.content-container > span{
-  letter-spacing: 1.5vw;
-}
-
-.content-container{
-  padding: 7vw 7vw 0 7vw;
-}
-
-.content-container > h1{
-  font-size: 10vw;
-  margin: 3vw 0 3vw 0;
-}
-
-.price-card{
-    font-size:7.2vw;
-    display: inline-flex;
-    align-items: center;
-    color:$primary-color-one;
-}
-
-.price-card >h2{
-  margin:0;
-}
-
-.btn-container{
-  margin: 0 auto;
-}
-
-.price-card > p{
-    color:$neutral-color-one;
-    font-size: 4.5vw;
-    margin-left:4vw;
-    text-decoration: line-through;
-}
-.img-container-mobile{
-    overflow: hidden;
-    width: 100%;
-    height: 60vw;
-    background-color: $primary-color-two;
-    border-radius: 10px 10px 0 0;
-
-
-}
-
-.img-product-mobile{
-    width: 100%;
-    height: 100%;
-    background-color: $primary-color-two;
-    
-
-}
-button{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin: 6vw auto;
-  background-color: $primary-color-one;
-  color:$neutral-color-three;
-  width: 75vw;
-  height: 14vw;
-  font-size:4vw;
-  border-radius: 10px;
-  font-weight: bolder;
-
-}
-
-button > img{
-  margin: 0 3vw;
-}
-
-
-
-    
-}
-
-@media only screen and (min-width: 375px) 
-{
-
-.outer {
-    display: table;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }    
-  
-
-.page-container{
+  .price-card{
+    margin:4vw 0 4vw 0;
     display: flex;
     flex-direction: column;
-    background-color:$neutral-color-three;
-    width: 75vw;
-    margin: 0 auto;
-    border-radius: 10px;
-    height: 135vw;
-}
-.content-container > p{
-  color: $neutral-color-one;
-  font-size: 3vw;
-  line-height: 5vw;
-  margin:0;
-  width: 62vw;
-}
+  }
 
-.content-container > span{
-  letter-spacing: 0.6vw;
-  font-size: 3vw;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.content-container{
-  padding: 4.2vw 6vw 0 6vw;
-}
-
-.content-container > h1{
-  font-size: 7.2vw;
-  letter-spacing: 0.25vw;
-  line-height: 7.5vw;
-  margin: 2.5vw 0 3vw 0;
-  
-}
-
-.price-card{
-    margin:2.5vw 0 0 0;
-    font-size:5.5vw;
+  .price-card > div{
     display: inline-flex;
     align-items: center;
-    color:$primary-color-one;
-}
+    text-align: center;
+  }
 
-.price-card >h2{
-  margin:0;
-  font-family: Fraunces;
-}
+  .price-card > div > h2{
+    font-size: 8vw;
+    margin:0 0 12vw 0;
+  }
 
-.btn-container{
-  margin: 0 auto;
-}
-
-.price-card > p{
-    color:$neutral-color-one;
-    font-size: 3.5vw;
-    margin-left:4vw;
-    text-decoration: line-through;
-}
-.img-container-mobile{
-    margin: 0 auto;
+  .price-card > div > p{
+    margin:0 0 12vw 5vw;
+  }
+  .img-container-mobile{
+    margin: 0 auto 5vw auto;
+    width: 100%;
+    height: auto;
     overflow: hidden;
+  }
+
+  .img-product-mobile{
     width: 100%;
-    height: 39%;
-    background-color: $primary-color-two;
-    border-radius: 10px 10px 0 0;
+  }
 
+  .content-container{
+    padding: 2vw 0 5vw 4vw;
 
-}
+  }
 
-.img-product-mobile{
-    width: 100%;
-    height: 100%;
-    background-color: $primary-color-two;
-    
-
-}
-button{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin: 3.2vw auto;
-  background-color: $primary-color-one;
-  color:$neutral-color-three;
-  width: 65vw;
-  height: 11vw;
-  font-size:3.5vw;
-  border-radius: 10px;
-  font-weight: bolder;
-
-}
-
-button > img{
-  margin: 0 3vw;
-}
-
-
-
-    
-}
-
-@media only screen and (min-width: 500px) 
-{
-
-.outer {
-    display: table;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-  }    
-  
-
-.page-container{
-    display: flex;
-    flex-direction: column;
-    background-color: $neutral-color-three;
-    width: 90vw;
-    margin:0 auto;
-    border-radius: 10px;
-}
-.content-container > p,span{
-  color: $neutral-color-one;
-  font-size: 3vw;
-  line-height: 5vw;
-  margin:0;
-  width: 71vw;
-}
-
-.content-container > span{
-  letter-spacing: 1.5vw;
-}
-
-.content-container{
-  padding: 5vw 8vw 0 8vw;
-}
-
-.content-container > h1{
-  font-size: 7vw;
-  margin: 3vw 0 3vw 0;
-}
-
-.price-card{
-    font-size:5vw;
-    display: inline-flex;
-    align-items: center;
-    color:$primary-color-one;
-}
-
-.price-card >h2{
-  margin:0;
-}
-
-.btn-container{
-  margin: 0 auto;
-}
-
-.price-card > p{
-    color:$neutral-color-one;
+  .content-container > .perfume{
     font-size: 3vw;
-    margin-left:4vw;
-    text-decoration: line-through;
-}
-.img-container-mobile{
-    overflow: hidden;
-    width: 100%;
-    height: 45vw;
-    object-fit: cover;
-    background-color: $primary-color-two;
-    border-radius: 10px 10px 0 0;
+    text-transform: uppercase;
+    letter-spacing: 0.9vw;
+    font-weight: 700;
+    height: 0.5vw;
+  }
 
+  .content-container > p{
+    font-size: 3.2vw;
+    margin: 0;
+    line-height: 5vw;
+    width: 95%;
+  }
 
-}
-
-.img-product-mobile{
-    width: 90vw;
-    height: 45vw;
-    background-color: $primary-color-two;
-    
-
-}
-button{
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin: 4vw auto;
-  background-color: $primary-color-one;
-  color:$neutral-color-three;
-  width: 70vw;
-  height: 10vw;
-  font-size:3vw;
-  border-radius: 10px;
-  font-weight: bolder;
-
-}
-
-button > img{
-  margin: 0 3vw;
-}
-
-
-
-    
+  .content-container > h1{
+    font-size: 8vw;
+    line-height: 7vw;
+  }
+  
+  
+  button{
+    width: 95%;
+    height: 10vw;
+    position: relative;
+    bottom:8vw
+  }
+  
 }
