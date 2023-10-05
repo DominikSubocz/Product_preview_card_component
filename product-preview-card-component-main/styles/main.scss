@@ -56,13 +56,15 @@ body{
 
 @media only screen and (min-width: 375px) {
 
+  
+
   .page-container{
     display: flex;
     flex-direction: column;
-    padding: 0 5vw 0 5vw;
     background-color: $neutral-color-three;
     width: 74vw;
     margin:0 auto;
+    border-radius: 10px;
   }
 
   .price-card{
@@ -86,14 +88,16 @@ body{
     margin:0 0 12vw 5vw;
   }
   .img-container-mobile{
-    margin: 0 auto 5vw auto;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
     height: auto;
     overflow: hidden;
   }
 
   .img-product-mobile{
-    width: 100%;
+    max-width: 105%;
+    
   }
 
   .content-container{
@@ -120,13 +124,17 @@ body{
     font-size: 8vw;
     line-height: 7vw;
   }
+
+  .btn-container{
+    position: relative;
+    bottom:8vw;
+  }
   
   
   button{
     width: 95%;
     height: 10vw;
-    position: relative;
-    bottom:8vw
+    border:none;
   }
   
 }
