@@ -58,6 +58,14 @@ body{
 
   
 
+  .inner{
+    position: absolute;
+    height: 130vw;
+    border-radius: 10px;
+    top:15vw;
+    overflow:hidden;
+  }
+
   .page-container{
     display: flex;
     flex-direction: column;
@@ -65,6 +73,7 @@ body{
     width: 74vw;
     margin:0 auto;
     border-radius: 10px;
+
   }
 
   .price-card{

@@ -41,6 +41,13 @@ body {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 375px) {
+  .inner {
+    position: absolute;
+    height: 130vw;
+    border-radius: 10px;
+    top: 15vw;
+    overflow: hidden;
+  }
   .page-container {
     display: flex;
     flex-direction: column;
