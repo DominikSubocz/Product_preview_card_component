@@ -24,7 +24,7 @@ body {
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (min-width: 375px) and (max-width: 1200px) {
+@media only screen and (min-width: 375px) and (max-width: 625px) {
   .inner {
     position: absolute;
     height: 130vw;
@@ -118,7 +118,103 @@ body {
     margin-right: 2vw;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 625px) and (max-width: 1149px) {
+  .inner {
+    position: absolute;
+    height: 70vw;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
+    width: 40%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    width: 40vw;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .price-card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .price-card > div {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+  }
+  .price-card > div > h2 {
+    font-size: 4.75vw;
+    margin: 0 0 7vw 0;
+  }
+  .price-card > div > p {
+    margin: 0 0 7vw 1.5vw;
+    text-decoration: line-through;
+  }
+  .img-container {
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+    overflow: hidden;
+  }
+  .img-product-desktop {
+    display: none;
+  }
+  .img-product-mobile {
+    display: block;
+    max-width: 100%;
+  }
+  .content-container {
+    padding: 0 0 0 2.8vw;
+  }
+  .content-container > .perfume {
+    font-size: 1.25vw;
+    text-transform: uppercase;
+    letter-spacing: 0.75vw;
+    font-weight: 700;
+    height: 0.5vw;
+  }
+  .content-container > p {
+    font-size: 2.15vw;
+    margin: 0;
+    line-height: 2.75vw;
+    width: 99%;
+  }
+  .content-container > h1 {
+    font-size: 4.6vw;
+    line-height: 3.5vw;
+    margin: 2vw 0;
+  }
+  .btn-container {
+    position: relative;
+    bottom: 5vw;
+  }
+  button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    width: 95%;
+    height: 6vw;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    font-size: 1.8vw;
+  }
+  .icon-cart {
+    width: 1.8vw;
+    margin-right: 1vw;
+  }
+}
+@media only screen and (min-width: 1150px) {
   .inner {
     position: absolute;
     left: 0;
@@ -138,7 +234,7 @@ body {
   .img-product-desktop {
     display: block;
     width: 25vw;
-    height: 36vw;
+    height: 40vw;
   }
   .page-container {
     display: flex;
