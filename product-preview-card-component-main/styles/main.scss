@@ -30,6 +30,34 @@ body{
     /* Whatever width you want */
   }
 
+  .content-container > h1
+  {
+    font-family:'Fraunces';
+  }
+
+  .content-container > .perfume{
+    font-family: 'Montserrat', serif;
+    color:$neutral-color-two;
+  }
+
+  .content-container > p{
+    color:$neutral-color-two;
+    font-family:'Montserrat';
+  }
+  .price-card{
+    font-family: 'Fraunces';
+    color:$primary-color-one;
+  }
+  
+  .price-card > div > p{
+    font-family:'Montserrat';
+    text-decoration: line-through;
+    color:$neutral-color-two;
+  }
+
+
+  
+
   /* Extra small devices (phones, 600px and down) */
 
   @media only screen and (max-width: 375px){
@@ -147,16 +175,17 @@ body{
       font-size:2vw;
       margin-right:2vw;
     }
+
     
   }
 
-@media only screen and (min-width: 375px) and (max-width:625px) {
+@media only screen and (min-width: 375px) and (max-width:524px) {
 
   
 
   .inner{
     position: absolute;
-    height: 130vw;
+    height: 133vw;
     border-radius: 10px;
     overflow: hidden;
     margin: auto;
@@ -223,7 +252,7 @@ body{
   }
 
   .content-container > .perfume{
-    font-size: 3vw;
+    font-size: 2.5vw;
     text-transform: uppercase;
     letter-spacing: 0.9vw;
     font-weight: 700;
@@ -238,7 +267,7 @@ body{
   }
 
   .content-container > h1{
-    font-size: 8vw;
+    font-size: 7vw;
     line-height: 7vw;
   }
 
@@ -268,7 +297,7 @@ body{
   
 }
 
-@media only screen and (min-width: 625px) and (max-width:1149px) {
+@media only screen and (min-width: 525px) and (max-width:979px) {
 
   
 
@@ -296,6 +325,7 @@ body{
   }
 
   .price-card{
+    padding:2vw 0 0 0;
     margin:0;
     display: flex;
     flex-direction: column;
@@ -308,14 +338,16 @@ body{
   }
 
   .price-card > div > h2{
-    font-size: 4.75vw;
+    font-size: 4vw;
     margin:0 0 7vw 0;
+    color:$primary-color-one;
   }
 
   .price-card > div > p{
     margin:0 0 7vw 1.5vw;
     text-decoration: line-through;
-    font-size:2vw;
+    font-size:1.5vw;
+    color:$neutral-color-two;
   }
   .img-container{
     margin: 0 auto;
@@ -347,19 +379,23 @@ body{
     letter-spacing: 0.75vw;
     font-weight: 700;
     height: 0.5vw;
+    color:$neutral-color-two;
+    padding: 1vw 0 1vw 0;
   }
 
   .content-container > p{
-    font-size: 2.15vw;
+    font-size: 2vw;
     margin: 0;
     line-height: 2.75vw;
-    width: 99%;
+    width: 91%;
+    color:$neutral-color-one;
   }
 
   .content-container > h1{
-    font-size: 4.6vw;
-    line-height: 3.5vw;
+    font-size: 4.2vw;
+    line-height: 4vw;
     margin: 2vw 0;
+    font-family: 'Fraunces';
   }
 
   .btn-container{
@@ -388,7 +424,7 @@ body{
   
 }
 
-@media only screen and (min-width: 1150px) 
+@media only screen and (min-width: 980px) 
 {
 
   
