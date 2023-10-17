@@ -60,17 +60,17 @@ body{
 
   /* Extra small devices (phones, 600px and down) */
 
-  @media only screen and (max-width: 375px){
+  @media only screen and (max-width: 374px){
 
   
 
     .inner{
       position: absolute;
-      height: 130vw;
+      height: 160vw;
       border-radius: 10px;
       overflow: hidden;
       margin: auto;
-      width: 74vw;
+      width: 94vw;
       left:0;
       right:0;
       bottom:0;
@@ -81,7 +81,7 @@ body{
       display: flex;
       flex-direction: column;
       background-color: $neutral-color-three;
-      width: 74vw;
+      width: 94vw;
       margin:0 auto;
       border-radius: 10px;
   
@@ -100,7 +100,7 @@ body{
     }
   
     .price-card > div > h2{
-      font-size: 8vw;
+      font-size: 9vw;
       margin:0 0 12vw 0;
     }
   
@@ -128,28 +128,28 @@ body{
     }
   
     .content-container{
-      padding: 2vw 0 5vw 4vw;
+      padding: 2vw 2.5vw 6vw 7.5vw;
   
     }
   
     .content-container > .perfume{
       font-size: 3vw;
       text-transform: uppercase;
-      letter-spacing: 0.9vw;
+      letter-spacing: 1.5vw;
       font-weight: 700;
       height: 0.5vw;
     }
   
     .content-container > p{
-      font-size: 3.2vw;
+      font-size: 3.8vw;
       margin: 0;
       line-height: 5vw;
       width: 95%;
     }
   
     .content-container > h1{
-      font-size: 8vw;
-      line-height: 7vw;
+      font-size: 9vw;
+      line-height: 9vw;
     }
   
     .btn-container{
