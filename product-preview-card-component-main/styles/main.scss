@@ -24,9 +24,15 @@ body{
   }
   
   .inner {
-    margin-left: auto;
-    margin-right: auto;
+    position: absolute;
     width: 100vw;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: auto;
     /* Whatever width you want */
   }
 
@@ -39,20 +45,54 @@ body{
     font-family: 'Montserrat', serif;
     color:$neutral-color-two;
   }
-
   .content-container > p{
     color:$neutral-color-two;
     font-family:'Montserrat';
   }
+  .page-container{
+    display: flex;
+    margin:0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: $neutral-color-three;
+    border-radius: 10px;
+  }
   .price-card{
+    display: flex;
+    flex-direction: column;
     font-family: 'Fraunces';
     color:$primary-color-one;
   }
-  
+  .price-card > div{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .price-card > div > h2{
+    color:$primary-color-one;
+  }
+
   .price-card > div > p{
     font-family:'Montserrat';
     text-decoration: line-through;
     color:$neutral-color-two;
+    
+  }
+
+  .img-container{
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    height: auto;
+  }
+
+  .img-product-mobile{
+    max-width: 100%;
+  }
+
+  .perfume{
+    text-transform: uppercase;
+    font-weight: 700;
   }
 
 
@@ -60,67 +100,34 @@ body{
 
   /* Extra small devices (phones, 600px and down) */
 
-  @media only screen and (max-width: 374px){
+@media only screen and (max-width: 374px){
 
   
 
     .inner{
-      position: absolute;
       height: 160vw;
-      border-radius: 10px;
-      overflow: hidden;
-      margin: auto;
       width: 94vw;
-      left:0;
-      right:0;
-      bottom:0;
-      top:0;
     }
-  
     .page-container{
-      display: flex;
       flex-direction: column;
-      background-color: $neutral-color-three;
       width: 94vw;
-      margin:0 auto;
-      border-radius: 10px;
   
     }
-  
     .price-card{
       margin:4vw 0 4vw 0;
-      display: flex;
-      flex-direction: column;
     }
-  
-    .price-card > div{
-      display: inline-flex;
-      align-items: center;
-      text-align: center;
-    }
-  
     .price-card > div > h2{
       font-size: 9vw;
       margin:0 0 12vw 0;
     }
-  
     .price-card > div > p{
       margin:0 0 12vw 5vw;
       font-size:4vw;
     }
-    .img-container{
-      margin: 0 auto;
-      max-width: 100%;
-      border-radius: 10px 10px 0 0;
-      height: auto;
-      overflow: hidden;
-    }
-  
     .img-product-desktop{
       display: none;
       
     }
-  
     .img-product-mobile{
       display: block;
       max-width: 105%;
@@ -177,85 +184,46 @@ body{
     }
 
     
-  }
+}
 
 @media only screen and (min-width: 375px) and (max-width:524px) {
 
-  
-
   .inner{
-    position: absolute;
     height: 133vw;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: auto;
     width: 74vw;
-    left:0;
-    right:0;
-    bottom:0;
-    top:0;
-  }
 
+  }
   .page-container{
-    display: flex;
     flex-direction: column;
-    background-color: $neutral-color-three;
     width: 74vw;
-    margin:0 auto;
-    border-radius: 10px;
 
   }
-
   .price-card{
     margin:4vw 0 4vw 0;
-    display: flex;
-    flex-direction: column;
   }
-
-  .price-card > div{
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
-  }
-
   .price-card > div > h2{
     font-size: 8vw;
     margin:0 0 12vw 0;
   }
-
   .price-card > div > p{
     margin:0 0 12vw 5vw;
     font-size:4vw;
   }
-  .img-container{
-    margin: 0 auto;
-    max-width: 100%;
-    border-radius: 10px 10px 0 0;
-    height: auto;
-    overflow: hidden;
-  }
-
   .img-product-desktop{
     display: none;
     
   }
-
   .img-product-mobile{
-    display: block;
-    max-width: 105%;
-    
+    display: block;    
   }
-
   .content-container{
     padding: 2vw 0 5vw 4vw;
 
   }
 
-  .content-container > .perfume{
+.perfume{
     font-size: 2.5vw;
-    text-transform: uppercase;
     letter-spacing: 0.9vw;
-    font-weight: 700;
     height: 0.5vw;
   }
 
@@ -299,75 +267,33 @@ body{
 
 @media only screen and (min-width: 525px) and (max-width:979px) {
 
-  
-
   .inner{
-    position: absolute;
     height: 70vw;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: auto;
     width: 40%;
-    left:0;
-    right:0;
-    bottom:0;
-    top:0;
   }
-
   .page-container{
-    display: flex;
     flex-direction: column;
-    background-color: $neutral-color-three;
     width: 40vw;
-    margin:0 auto;
-    border-radius: 10px;
 
   }
-
   .price-card{
     padding:2vw 0 0 0;
     margin:0;
-    display: flex;
-    flex-direction: column;
   }
-
-  .price-card > div{
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
-  }
-
   .price-card > div > h2{
     font-size: 4vw;
     margin:0 0 7vw 0;
-    color:$primary-color-one;
   }
-
   .price-card > div > p{
     margin:0 0 7vw 1.5vw;
-    text-decoration: line-through;
     font-size:1.5vw;
-    color:$neutral-color-two;
   }
-  .img-container{
-    margin: 0 auto;
-    max-width: 100%;
-    border-radius: 10px 10px 0 0;
-    height: auto;
-    overflow: hidden;
-  }
-
   .img-product-desktop{
     display: none;
-    
   }
-
   .img-product-mobile{
-    display: block;
-    max-width: 100%;
-    
+    display: block; 
   }
-
   .content-container{
     padding: 0 0 0 2.8vw;
 
@@ -426,42 +352,22 @@ body{
 
 @media only screen and (min-width: 980px) 
 {
-
-  
   .inner{
-    position: absolute;
-    left:0;
-    right: 0;
-    top:0;
-    bottom:0;
-    border-radius: 10px;
-    overflow: hidden;
     width: 50vw;
     height: 40vw;
-    margin:auto;
   }
-
   .img-product-mobile{
     display: none;
     overflow: hidden;
   }
-
   .img-product-desktop{
     display: block;
     width: 25vw;
     height: 40vw;
   }
-
-
-
-
   .page-container{
-    display: flex;
-    background-color: $neutral-color-three;
     width: 50vw;
     height: 40vw;
-    margin:0 auto;
-    font-family: 'Montserrat', sans-serif;
 
   }
 
