@@ -67,18 +67,15 @@ body{
     align-items: center;
     text-align: center;
   }
-
   .price-card > div > h2{
     color:$primary-color-one;
   }
-
   .price-card > div > p{
     font-family:'Montserrat';
     text-decoration: line-through;
     color:$neutral-color-two;
     
   }
-
   .img-container{
     margin: 0 auto;
     max-width: 100%;
@@ -93,6 +90,10 @@ body{
   .perfume{
     text-transform: uppercase;
     font-weight: 700;
+  }
+
+  button:hover{
+    background-color:$neutral-color-thee;
   }
 
 

@@ -90,6 +90,10 @@ body {
   font-weight: 700;
 }
 
+button:hover {
+  background-color: hsl(228, 12%, 48%);
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 374px) {
   .inner {
