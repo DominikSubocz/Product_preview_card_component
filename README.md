@@ -93,4 +93,4 @@ I havent' used any resources, for making this website, just stackoverflow, but i
 ## Author
 
 - Website - No portfolio website for now, but I plan to add it and edit all readme files in the future. 😃
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/DominikSubocz)
+- Frontend Mentor - [@Dominik Subocz](https://www.frontendmentor.io/profile/DominikSubocz)
