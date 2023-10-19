@@ -78,16 +78,17 @@ So what this essentially does, is that it acts as flex, but it keeps elements in
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I am definitely looking forward to exploring the features of SCSS in the future projects.
+Maybe clean my code in my future projects, remove unused duplicates, etc.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+I am also looking forward to trying couple of new stuff:
+-  PHP
+-  Node.js
+-  React.js (I have a book about it, so I'll give it a read)
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+I havent' used any resources, for making this website, just stackoverflow, but if I find some useful stuff I'll link it down here in the future.
 
 ## Author
 
