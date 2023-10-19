@@ -27,11 +27,11 @@ Users should be able to:
 - See hover and focus states for interactive elements [✔️]
 
 ### Screenshot
-## Desktop Preview
+### Desktop Preview
 ![Solution - Desktop](https://github.com/DominikSubocz/Product_preview_card_component/assets/121230993/88988cdd-481e-40df-85e8-df76d9ee4a1b)
-## Desktop Actions Preview
+### Desktop Actions Preview
 ![Solution Desktop - Actions](https://github.com/DominikSubocz/Product_preview_card_component/assets/121230993/9afe8a00-b1d9-4f87-8e79-67c99b552471)
-## Mobile Preview
+### Mobile Preview
 ![Solution Mobile](https://github.com/DominikSubocz/Product_preview_card_component/assets/121230993/58821ca2-93eb-49c7-8a17-c0660a2a8d76)
 
 ### Links
