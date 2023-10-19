@@ -65,6 +65,14 @@ Not gonna lie, but I just started with SCSS, I haven't learned much, but for now
 Apart from that I have learned some cool trick with flex layout, that I just discovered in the previous project I think.
 Anyways here's how it works I think:
 
+```css
+
+.proud-of-this-div {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+```
 
 So what this essentially does, is that it acts as flex, but it keeps elements in one line I think, I had to add two aligns so it's perfectly inline with my shopping icon.
 
