@@ -1,4 +1,5 @@
 # Frontend Mentor - Product preview card component solution
+Hello there, and welcome to my solution for the Frontend Product Preview Card Component Challenge! I've added a touch of magic to make it look fantastic. Take a stroll through and share your thoughts. Happy coding and have a wonderful day!
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
@@ -33,47 +34,44 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site Solution URL: [Add live site URL here](https://product-preview-card-dominik.netlify.app/)
 
 ## My process
+So I basically start by adjusting, tweaking and editing the HTML document to my liking,this is where I add divs and wrap plain text with various html tags, until everything is basically wrapped up nicely, and it looks neat.
+
+My process of making websites from that point is usually a little bit messy, and by that I mean that I sometimes tend to write code possibly overcomplicated than it should be, leave duplicate code in different breakpoints, but HEY! it matters that it works and looks almost identical.
+
+Anyways, then I move onto writing the CSS file. This time I used SCSS(SAAS), I wanted to experiment with new stuff, while I have not used it to its full potential with this website, I plan to explore its features in my future projects. Not so long ago, I would start styling my website from Desktop to Mobile, now I do it the opposite way like I should've in the past, cause it's much easier. Throughout thie part, I just style elements bit by bit, add breakpoints one by one, and when I'm nearly reaching the end, then it's just adjusting and tweaking things.
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 markup
+- SCSS
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [React]([https://reactjs.org/](https://sass-lang.com/)) - SCSS (SAAS) 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Not gonna lie, but I just started with SCSS, I haven't learned much, but for now I learned about custom variables, which I have used to name my colours
 
-To see how you can add code snippets, see below:
+```scss
+    $this-is-a-test:hsl(H, S, L);
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
 .proud-of-this-css {
-  color: papayawhip;
+  color: $this-is-a-test;
 }
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+Apart from that I have learned some cool trick with flex layout, that I just discovered in the previous project I think.
+Anyways here's how it works I think:
+```css
+
+.proud-of-this-div {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
 }
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+So what this essentially does, is that it acts as flex, but it keeps elements in one line I think, I had to add two aligns so it's perfectly inline with my shopping icon.
 
 ### Continued development
 
