@@ -19,6 +19,9 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ## Overview
 
 ### The challenge
+![Solution - Desktop](https://github.com/DominikSubocz/Product_preview_card_component/assets/121230993/88988cdd-481e-40df-85e8-df76d9ee4a1b)
+![Solution Desktop - Actions](https://github.com/DominikSubocz/Product_preview_card_component/assets/121230993/9afe8a00-b1d9-4f87-8e79-67c99b552471)
+![Solution Mobile](https://github.com/DominikSubocz/Product_preview_card_component/assets/121230993/58821ca2-93eb-49c7-8a17-c0660a2a8d76)
 
 Users should be able to:
 
@@ -26,7 +29,6 @@ Users should be able to:
 - See hover and focus states for interactive elements [✔️]
 
 ### Screenshot
-[Alt text](/screenshots/Solution - Desktop.jpg?raw=true "Optional Title")
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
