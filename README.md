@@ -31,14 +31,6 @@ Users should be able to:
 ![Solution Desktop - Actions](https://github.com/DominikSubocz/Product_preview_card_component/assets/121230993/9afe8a00-b1d9-4f87-8e79-67c99b552471)
 ![Solution Mobile](https://github.com/DominikSubocz/Product_preview_card_component/assets/121230993/58821ca2-93eb-49c7-8a17-c0660a2a8d76)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
